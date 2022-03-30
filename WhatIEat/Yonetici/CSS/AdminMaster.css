@@ -1,0 +1,80 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial;
+}
+
+.Ust {
+    height: 70px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.Baslik {
+    padding-left: 10px;
+    color: black;
+}
+    .Baslik img {
+        width: 55px;
+        float: left;
+        padding-left: 10px;
+        padding-top:20px;
+ 
+    }
+    .Baslik h3{
+        padding-top: 35px;
+        float:left;
+    }
+.Kullanici {
+    padding-top: 20px;
+    padding-right: 50px;
+    color: black;
+    float: right;
+}
+
+    .Kullanici a {
+        color: black;
+        text-decoration: none;
+    }
+  
+
+.Secenekler {
+    background-color: black;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid black;
+    padding-top:10px;
+}
+
+.Menu {
+    list-style: none;
+
+}
+
+
+    .Menu a {
+        color: rosybrown;
+        text-decoration: none;
+    }
+
+        .Menu a li {
+            padding: 7px;
+            padding-left: 20px;
+            margin-left:50px;
+            border-bottom: 1px solid #ff4f61;
+            display: inline;
+            border-radius:8px;
+        }
+
+        .Menu a:hover li {
+            background-color: darkred;
+            color:white;
+        }   
+.Icerik {
+    width: 900px;
+    float: left;
+    padding: 25px;
+}

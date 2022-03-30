@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Yonetici.master.cs" Inherits="WhatIEat.Yonetici.Yonetici" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>LookEat</title>
+    <link href="CSS/AdminMaster.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="Ust">
+                <div class="Baslik">
+                    <img src="Resim/lookeat.png" /> <h3>Admin Paneli</h3>
+                </div>
+                <div class="Kullanici">
+                    <asp:Label ID="lbl_kullanıcı" runat="server" Style="margin-right: 20px;"></asp:Label>
+                    <asp:LinkButton ID="btn_cikis" runat="server" OnClick="btn_cikis_Click"> Çıkış </asp:LinkButton>
+                </div>
+            </div>
+            <div>
+                <div class="Secenekler">
+                    <ul class="Menu">
+                        <a href="Default.aspx">
+                            <li>Anasayfa</li>
+                        </a>
+                        
+                        <a href="KategoriListele.aspx">
+                            <li>Kategoriler</li>
+                        </a>
+                        <a href="KategoriEkle.aspx">
+                            <li>Kategori Ekle</li>
+                        </a>
+                      
+                        <a href="MakaleListele.aspx">
+                            <li>Makaleler</li>
+                        </a>
+                        <a href="MakaleEkle.aspx">
+                            <li>Makale Ekle</li>
+                        </a>
+
+                        <a href="Uyeler.aspx">
+                            <li>Üyeler</li>
+                        </a>
+
+                        <a href="YorumYonetimi.aspx">
+                            <li>Yorum Yönetimi</li>
+                        </a>
+
+                        <a href="Sifre.aspx">
+                            <li>Şifre Değiştir</li>
+                        </a>
+
+                    </ul>
+                </div>
+                <div class="Icerik">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="ckeditor/ckeditor.js"></script>
+     <script>
+         CKEDITOR.replace('ContentPlaceHolder1_tb_icerik');
+     </script>
+</body>
+</html>

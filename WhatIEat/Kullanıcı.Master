@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Kullanıcı.master.cs" Inherits="WhatIEat.Kullanıcı" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="kullanıcı_css/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="Default.aspx">
+                        <img src="Yonetici/Resim/logo.jpg" />
+                        <a />
+                </div>
+                <div class="search">
+                    <input value="Ara.." />
+                    <input type="button" value="🔍︎">
+                </div>
+                <div class="kullanici">
+                    <asp:Panel ID="pnl_uye" runat="server">
+
+                        <asp:Label ID="lbl_uye" runat="server"></asp:Label>&nbsp &nbsp &nbsp &nbsp &nbsp|<asp:LinkButton ID="btn_cikis" runat="server" OnClick="btn_cikis_Click">Çıkış</asp:LinkButton>
+                    </asp:Panel>
+                    <asp:Panel ID="pnl_giris_yok" runat="server">
+                        <a href="Giris.aspx">Giriş Yap</a>|<a href="UyeKayit.aspx">Kayıt Ol</a>
+                    </asp:Panel>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="menucontainer">
+                <ul>
+                    <a href='Default.aspx'>
+                        <li>Anasayfa</li>
+                    </a>
+                    <asp:Repeater ID="rp_kategoriler" runat="server">
+                        <ItemTemplate>
+                            <a href='Default.aspx?kid=<%# Eval("ID") %>'>
+                                <li><%# Eval("Isim") %></li>
+                            </a>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

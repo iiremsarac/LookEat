@@ -1,0 +1,141 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.temp {
+    height: 500px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 120px;
+    float: left;
+}
+
+    .logo img {
+        width: 100%;
+    }
+
+.kullanici {
+    width: 250px;
+    float: right;
+    padding-top: 30px;
+    text-align: right;
+}
+
+    .kullanici a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 20px;
+    }
+
+.content {
+    width: 739px;
+    padding: 20px 10px 0 0;
+    float: left;
+    border-right: 1px;
+}
+
+.menucontainer {
+    width: 240px;
+    padding: 20px 10px 0 0;
+    float: right;
+    min-height: 500px;
+}
+
+.baslik {
+    padding: 10px 0;
+    color: black;
+    text-align: center;
+}
+
+.image img {
+    width: 50%;
+    padding-left: 95px;
+}
+
+
+.ozet {
+    padding: 10px 10px;
+    color: black;
+}
+
+.buton {
+    padding: 10px 10px;
+    text-align: end;
+}
+
+    .buton a {
+        color: darkred;
+        text-decoration: none;
+    }
+
+.menucontainer {
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+    .menucontainer ul {
+        list-style-type: none;
+    }
+
+        .menucontainer ul a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .menucontainer ul a li {
+                padding: 7px 7px 7px 15px;
+                border-bottom: 1px solid #dedede;
+            }
+
+            .menucontainer ul a:hover li {
+                background-color: white;
+                color: black;
+            }
+
+
+
+.giris_btn {
+    text-decoration: none;
+    color: darkred;
+}
+
+.kategori {
+    color: white;
+    padding: 10px 30px;
+}
+
+.Makale {
+    width: 350px;
+    height: 400px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top:5px;
+    background-image: url('../MakaleResimleri/backg.jpg');
+    background-position: 50% 50%;
+}
+
+.search {
+    padding-left:380px;
+}

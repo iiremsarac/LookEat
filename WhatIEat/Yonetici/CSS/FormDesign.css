@@ -1,0 +1,119 @@
+﻿
+.FormContainer {
+    width:1200px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.baslik {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: black;
+    padding: 20px;
+    color:white;
+    
+}
+
+.MesajPanel{
+    padding:20px;
+
+}
+
+.olumlu {
+    padding: 20px;
+    border: 1px solid black;
+    background-color: darkgreen;
+    color: black;
+    border-radius: 7px;
+}
+
+.olumsuz {
+    padding: 20px;
+    border: 1px solid #890909;
+    background-color: #ffbcbc;
+    color: #890909;
+    border-radius: 7px;
+}
+
+.row {
+    padding: 10px 0;
+}
+    .row .Input {
+        border: 1px solid silver;
+        border-radius: 5px;
+        padding: 10px;
+        width: 500px;
+        margin-top: 15px;
+    }
+    .row .Buton {
+        padding: 7px 25px;
+        background-color: darkred;
+        border-radius: 3px;
+        color: white;
+        text-decoration: none;
+    }
+        .row .Buton:hover {
+            background-color: darkred;
+            color: white;
+        }
+
+.contenttable {
+    padding: 0px !important;
+}
+
+.tablebutton {
+    padding: 3px 7px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.update {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+    .update:hover {
+        background-color: darkred;
+        color: white;
+    }
+
+.delete {
+    background-color: darkred;
+    border: 1px solid black;
+    color: black;
+}
+
+    .delete:hover {
+        background-color: black;
+        color: white;
+    }
+
+.ListTable {
+    width: 100%;
+    border-top: 1px solid #ff4f61;
+}
+
+    .ListTable tr th {
+        border-bottom: 3px solid black;
+        padding: 15px 10px;
+        background-color: black;
+        text-align: left;
+        border-right: 1px solid black;
+        color:white;
+    }
+
+    .ListTable tr td {
+        border-bottom: 1px solid black;
+        padding: 15px 10px;
+    }
+
+.status {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+    .status:hover {
+        background-color: darkred;
+        color: white;
+    }

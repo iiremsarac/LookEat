@@ -1,0 +1,64 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Comic Sans MS';
+}
+
+.GirisPanel {
+    width: 500px;
+    min-height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 200px;
+}
+
+.Baslik {
+    background-color: white;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+    .Baslik img {
+        width: 225px;
+        padding-left: 125px;               
+    }
+
+.Panel{
+    padding:50px;
+
+}
+
+.GirisKutu {
+    width: 350px;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.mesaj {
+    background-color: #fbbcbc;
+    color: darkred;
+    border: 1px solid darkred;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    
+}
+.Buton {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

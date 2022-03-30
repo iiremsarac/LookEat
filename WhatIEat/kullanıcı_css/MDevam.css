@@ -1,0 +1,55 @@
+﻿.MakaleDevam {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.ozet{
+    text-align:center;
+    border:1px solid black;
+    background-color:black;
+    color:white;
+    
+}
+
+.image {
+    padding-left:120px;
+}
+
+
+.yorumPanelBaslik {
+    text-align:center;
+    color: black;
+    border-top:1px solid black;
+    padding-top:10px;
+}
+
+.YorumKutu {
+    width: 100%;
+}
+
+.yorumYapButton {
+    padding: 10px 70px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+
+}
+
+.yorumitem {
+    padding: 20px 20px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+    .yorumitem label {
+        color: darkred;
+
+    }
+    .yorumitem p{
+        color:black;
+        width:30%;
+        border-radius:5px;
+    }
+
